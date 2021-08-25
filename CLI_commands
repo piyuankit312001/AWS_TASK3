@@ -1,0 +1,16 @@
+Instructions for completing the task
+This manual consists of only codes that are required in the CLI commands.
+  ~ replace the <> and it's contents with relevant arguments in the CMD or CLI
+  
+  
+  yum install httpd -y and yum install mysql -y
+  
+  amazon-linux-extras enable php7.4
+  
+  cd /var/www/html/
+  
+  wget https://wordpress.org/latest.tar.gz
+  
+  tar -xf latest.tar.gz
+  
+  mysql -h <your MySQL endpoint address> -u <Username> -p
